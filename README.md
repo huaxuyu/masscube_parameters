@@ -1,2 +1,3 @@
-# masscube_parameters
-Set parameters for MassCube
+# Set parameters for MassCube
+
+Change parameters and download the parameter file for MassCube command line applications.
