@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -77,26 +77,6 @@
             <td>MS ion mode | "positive" or "negative"</td>
           </tr>
           <tr>
-            <td>mz_lower_limit</td>
-            <td><input type="text" value="0" /></td>
-            <td>lower limit of m/z in Da</td>
-          </tr>
-          <tr>
-            <td>mz_upper_limit</td>
-            <td><input type="text" value="3000" /></td>
-            <td>upper limit of m/z in Da</td>
-          </tr>
-          <tr>
-            <td>rt_lower_limit</td>
-            <td><input type="text" value="0" /></td>
-            <td>lower limit of retention time in minutes</td>
-          </tr>
-          <tr>
-            <td>rt_upper_limit</td>
-            <td><input type="text" value="100" /></td>
-            <td>upper limit of retention time in minutes</td>
-          </tr>
-          <tr>
             <td>ms1_abs_int_tol</td>
             <td><input type="text" value="30000" /></td>
             <td>
@@ -121,14 +101,6 @@
             <td>mz_tol_ms2</td>
             <td><input type="text" value="0.015" /></td>
             <td>m/z tolerance for MS2 | default is 0.015</td>
-          </tr>
-          <tr>
-            <td>scan_scan_cor_tol</td>
-            <td><input type="text" value="0.7" /></td>
-            <td>
-              scan-to-scan correlation tolerance for feature grouping | default
-              is 0.7
-            </td>
           </tr>
           <tr>
             <td>mz_tol_alignment</td>
@@ -175,8 +147,8 @@
           </tr>
           <tr>
             <td>fuzzy_search</td>
-            <td><input type="text" value="yes" /></td>
-            <td>whether to perform fuzzy search</td>
+            <td><input type="text" value="no" /></td>
+            <td>whether to perform spectral fuzzy search</td>
           </tr>
           <tr>
             <td>sample_normalization</td>
